@@ -2,7 +2,10 @@ h1 {
 	text-align: center;
 	font-size: 43px;
 	font-weight: bold;
-	font-style: italic;
+}
+
+nav {
+	
 }
 
 img {
@@ -13,4 +16,9 @@ img {
 
 p {
 	text-align: center;
+}
+
+hr {
+	background-color: black;
+	height: 5px;
 }
