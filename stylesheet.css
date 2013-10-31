@@ -1,4 +1,8 @@
-
+/* 
+{
+	border: 1px solid black;
+}
+*/
 body{
 	margin: 0;
 }
@@ -7,29 +11,34 @@ h1 {
 	text-align: center;
 	font-size: 47px;
 	font-weight: bold;
+	margin:0;
 }
-/*
+
 header{
-	position:absolute;
-	top:0px;
-	left:0px;
+	padding: 0;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	float:left;
+	margin-left: 40px;
 }
 
 nav {
-	margin-left:25%;
-	width:75%;
+	margin-top:15px;
+	width: 50%;
+	float:right;
+
 }
 
 nav ul {
 	list-style-type:none;
-	margin:0;
+	margin: 0;
 	padding:0;
 	overflow:hidden;
+	margin-left: 110px;
 }
 
 nav ul li {
-	border: 1px solid black;
-	float: right;
+	display: inline-block;
 }
 
 nav ul li a:link,a:visited {
@@ -47,7 +56,6 @@ nav ul li a:hover,a:active {
 	background-color:#407db0;
 	color: #FFFFFF;
 }
-*/
 
 span {
 	color: #407db0;
