@@ -1,0 +1,33 @@
+h1 {
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+
+footer {
+	background-color:#407db0;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+footer ul {
+	padding-top: 6px;
+	margin: auto;
+	width: 228px;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+.socialicons {
+	width: 64px;
+}
